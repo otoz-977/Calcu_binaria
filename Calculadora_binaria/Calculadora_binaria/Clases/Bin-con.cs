@@ -34,6 +34,8 @@ namespace Calculadora_binaria.Clases
             Array.Reverse(arr);
             string str = new string(arr);
 
+            
+
             return str;
         }
         

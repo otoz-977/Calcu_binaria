@@ -137,6 +137,7 @@
             this.Controls.Add(this.binario1);
             this.Controls.Add(this.numero1);
             this.Name = "Form1";
+            this.Opacity = 0.8D;
             this.Text = "Multi_binario";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

@@ -25,6 +25,7 @@ namespace Calculadora_binaria
             string box1 = numero1.Text;
             if (numero1.TextLength !=0)
             {
+                
                 tmp = con.binario(box1) ;
                 binario1.Text = tmp;
             }
@@ -47,7 +48,8 @@ namespace Calculadora_binaria
             int res = num1 * num2;
             string R = res.ToString();
             string Res = con.binario(R);
-            Resultado.Text = Res;            
+            Resultado.Text = Res;   
+            
         }
     }
 }
